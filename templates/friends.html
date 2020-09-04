@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+    <title>Send Now | Test</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename="css/style.css") }}">
+    <script
+            type="text/javascript"
+            src="{{ url_for('static', filename='script/script.js') }}"></script>
+
+
+</head>
+<body>
+<div class="navbar">
+    <a href="main.html" class="logo">Send Now</a>
+    <ul class="nav">
+        <li class="logout" id="authBtn"><a href="/logout">Log Out</a></li>
+    </ul>
+</div>
+<div>
+    <ul class="friend">
+        <!-- friend의 베이스 폼 -->
+        <li>
+            <!-- 컬럼1 -->
+            <div class="friend_column">
+                <img src="static/friend_default.png" class="friend_img"/>
+                <div class="friend_name">
+                    <span>김승원</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <!-- 컬럼1 -->
+            <div class="friend_column">
+                <img src="static/friend_default.png" class="friend_img"/>
+                <div class="friend_name">
+                    <span>김승원</span>
+                </div>
+            </div>
+        </li>
+        <li>
+            <!-- 컬럼1 -->
+            <div class="friend_column">
+                <img src="static/friend_default.png" class="friend_img"/>
+                <div class="friend_name">
+                    <span>김승원</span>
+                </div>
+            </div>
+        </li>
+
+    </ul>
+
+</body>
+</html>

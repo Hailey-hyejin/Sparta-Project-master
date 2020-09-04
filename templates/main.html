@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no,viewport-fit=cover">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static',filename="css/style.css") }}">
+    <script
+            type="text/javascript"
+            src="{{ url_for('static', filename='script/script.js') }}"></script>
+    <title>Send Now | Test</title>
+
+</head>
+<body>
+<div class="navbar">
+    <a href="main.html" class="logo">Send Now</a>
+    <ul class="nav">
+        <li class="logout" id="authBtn"><a href="/logout">Log Out</a></li>
+    </ul>
+</div>
+<div class="coin_area">
+    <img class="coin" src="static/coin.png" alt="coin image">
+</div>
+<div class="input_area" id="amount">
+    <div>
+        <label>
+            <input class="input_amount" type="number" placeholder="0">
+        </label>
+    </div>
+    <div class="balance">
+        <p>Balance: {0}</p>
+    </div>
+</div>
+<div class="btn" id="btn_send">
+    <a class="btn_full" href="/join">Send</a>
+</div>
+
+</body>
+</html>

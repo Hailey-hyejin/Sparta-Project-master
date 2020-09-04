@@ -1,0 +1,192 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "SF Pro Text", sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fff;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: right;
+    list-style: none;
+    margin-right: 0;
+}
+
+.logo {
+    flex: 1 1 auto;
+    margin-left: 5%;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.logout {
+    text-align: right;
+    margin-right: 5%;
+    width: 200px;
+    font-weight: normal;
+    font-size: 13px;
+    opacity: 0.5;
+}
+
+a {
+    margin: 15px;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover {
+    color: #000;
+}
+
+.coin_area {
+    display: block;
+    padding-top: 120px;
+    margin: auto;
+    position: center;
+}
+
+.coin_area .coin {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: auto;
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.desc_area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding-top: 50px;
+    width: 100%;
+    height: 250px;
+}
+
+.desc_area .title {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.desc_area .desc {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 13px;
+    font-weight: normal;
+}
+
+.btn {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    height: 84px;
+    background-color: #8a57ff;
+    padding: 0;
+    border: none;
+    outline: none;
+    cursor: pointer;
+
+}
+
+.btn_full {
+    display: inline-block;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 2rem;
+    vertical-align: middle;
+    padding-top: 10px;
+    border: none;
+    outline: none;
+}
+
+.input_area {
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+}
+
+.input_area .input_amount {
+    outline: none;
+    border: none;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80px;
+    width: 220px;
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.desc_area .balance {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+
+.friend {
+    display: block;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding-top: 70px;
+    margin-left: 0;
+    padding-left: 10px;
+}
+
+.friend .friend_column {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    height: 40px;
+}
+
+.friend_column .friend_img {
+    margin-right: 20px;
+    width: 44px;
+    height: 44px;
+}
+
+/* 친구이름- 상태창과 거리위해 margin-bottom */
+.friend_name {
+    display: block;
+    margin-bottom: 0;
+    font-size: 16px;
+}
+
